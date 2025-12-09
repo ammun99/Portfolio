@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Amrutha Nagaraj | Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav">
+      <div class="nav__brand">
+        <a href="#home">Amrutha Nagaraj</a>
+      </div>
+      <button class="nav__toggle" aria-label="Toggle navigation" id="navToggle">
+        <span class="nav__toggle-line"></span>
+        <span class="nav__toggle-line"></span>
+      </button>
+      <ul class="nav__links" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- HERO / INTRO -->
+  <main id="home">
+    <section class="hero">
+      <div class="hero__content reveal">
+        <p class="hero__tagline">
+          <span id="heroTyping"></span>
+          <span class="hero__cursor">|</span>
+        </p>
+        
+        <h1 class="hero__title">Hello, I'm <span>Amrutha Nagaraj</span>.</h1>
+        <p class="hero__subtitle">
+          I'm a Full-Stack and Software Engineer with hands-on experience in building scalable web applications, backend services,
+          cloud-native systems, and data pipelines using Java, TypeScript, Node.js, React, and AWS.
+          Seeking to contribute to a growth-driven engineering team by building reliable, high-performance, and maintainable software systems.
+        </p>
+        <div class="hero__actions">
+          <a href="#projects" class="btn btn--primary">View Projects</a>
+          <a href="#contact" class="btn btn--ghost">Contact Me</a>
+        </div>
+        <div class="hero__meta">
+          <span>📍 Orlando, Florida</span>
+          <span>📧 <a href="mailto:amruthanagaraj41@gmail.com">amruthanagaraj41@gmail.com</a></span>
+          <span>
+            💼
+            <a href="https://www.linkedin.com/in/amrutha-nagaraj-0158881a1/" target="_blank" rel="noreferrer">
+              LinkedIn
+            </a>
+          </span>
+          <span>
+            🧑‍💻
+            <a href="https://github.com/ammun99" target="_blank" rel="noreferrer">
+              GitHub
+            </a>
+          </span>
+        </div>
+      </div>
+      <div class="hero__card reveal">
+        <div class="hero__card-inner">
+          <h2>Currently</h2>
+          <p class="hero__card-role">Software Engineer</p>
+          <p class="hero__card-company">KGS Technology</p>
+          <p class="hero__card-text">
+            Working on full-stack applications, distributed systems, and cloud-native services.
+          </p>
+          <a
+  class="hero__resume-link"
+  href="Amrutha_Nagaraj_Resume.pdf"
+  target="_blank"
+  rel="noreferrer"
+>
+  Download Resume →
+</a>
+
+        
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section section--alt">
+      <div class="section__header reveal">
+        <h2>About</h2>
+        <p>A quick snapshot of who I am and how I work.</p>
+      </div>
+      <div class="grid grid--2 reveal">
+        <div>
+          <p>
+            I’m a full-stack and software engineer with hands-on experience building scalable web applications, backend APIs, data pipelines,
+            and cloud-native systems. I enjoy working across the entire stack—from designing robust backend architecture and distributed
+            systems to crafting responsive, user-friendly frontend interfaces.
+          </p>
+          <p>
+            I’ve worked in fast-paced production environments as well as academic settings, where I’ve built CI/CD pipelines, optimized data
+            workflows, implemented microservices, and deployed systems on AWS, Azure, and GCP.
+            My background also includes data engineering and applied machine learning, allowing me to bridge the gap between software systems
+            and intelligent applications.
+          </p>
+          <p>
+            I value clean code, system reliability, observability, and continuous improvement.
+            I thrive in collaborative environments and enjoy mentoring, documentation, and building technology that scales with real user needs.
+          </p>
+        </div>
+        <div>
+          <ul class="bullet-list">
+            <li>✔ Full-stack development: React, TypeScript, Node.js, Java, Spring Boot</li>
+            <li>✔ Cloud & DevOps: AWS, Azure, Docker, Kubernetes, CI/CD</li>
+            <li>✔ Data & ML exposure: ETL pipelines, analytics, ML-driven systems</li>
+            <li>✔ Comfortable working in agile, cross-functional teams</li>
+            <li>✔ Strong foundations in algorithms, system design, and distributed systems</li>
+            <li>✔ Passionate about learning, mentoring, and documentation</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section">
+      <div class="section__header reveal">
+        <h2>Skills</h2>
+        <p>Technologies and tools I'm proficient in</p>
+      </div>
+      <div class="grid grid--3 skills-grid reveal">
+        <div class="card">
+          <h3>Languages & Frameworks</h3>
+          <ul>
+            <li>Java, Python, JavaScript, TypeScript</li>
+            <li>React, Node.js, Express.js</li>
+            <li>HTML5, CSS3, REST APIs</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Cloud & DevOps</h3>
+          <ul>
+            <li>AWS / GCP / Azure</li>
+            <li>Docker, CI/CD (GitHub Actions, Jenkins)</li>
+            <li>Monitoring & Logging</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Data & Testing</h3>
+          <ul>
+            <li>PostgreSQL, MySQL, NoSQL</li>
+            <li>ETL / Data Pipelines</li>
+            <li>Unit & Integration Testing</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3>Algorithms & Distributed Systems</h3>
+          <ul>
+            <li>Data structures, Multithreading, Synchronization, Scheduling Algorithms, Distributed Consensus</li>
+            <li>OS Internals, Memory Management, OOP, Graph Algorithms, Dynamic Programming, Greedy methods, Hashing, Trees/Graphs</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3>Agile Methodologies</h3>
+          <ul>
+            <li>Agile, Scrum, Cross-functional Collaboration, Sprints, Pair Programming</li>
+            <li>Debugging, VS Code, Code Reviews</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3>Soft Skills</h3>
+          <ul>
+            <li>Interpersonal Communication, Continuous Learning, Teamwork, Adaptability</li>
+            <li>Communication, Negotiation, Problem-Solving, System Reliability, Time Management</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience" class="section section--alt">
+      <div class="section__header reveal">
+        <h2>Experience</h2>
+        <p>Roles where I applied my skills to real-world problems.</p>
+      </div>
+
+      <div class="timeline reveal">
+        <!-- Experience Item -->
+        <article class="timeline__item">
+          <div class="timeline__meta">
+            <h3>Software Engineer</h3>
+            <p class="timeline__company">KGS Technology · Alpharetta, GA</p>
+            <p class="timeline__date">Mar 2025 – Present</p>
+          </div>
+          <div class="timeline__content">
+            <ul>
+              <li>
+                Developing and maintaining RESTful APIs and data services using Node.js (TypeScript) to support finance
+                workflows and transformation of large datasets—aligned with scalable data pipeline development.
+              </li>
+              <li>
+                Monitoring deployments with AWS CloudWatch, troubleshooting performance issues, and ensuring data accuracy.
+              </li>
+              <li>
+                Collaborating with cross-functional teams across time zones using Jira, GitHub, and Slack.
+                Contributing to SDLC, including requirements, development, CI/CD, and production monitoring.
+              </li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="timeline__item">
+          <div class="timeline__meta">
+            <h3>Graduate Teaching Assistant</h3>
+            <p class="timeline__company">University of Central Florida · Orlando, FL</p>
+            <p class="timeline__date">Dec 2022 – Dec 2024</p>
+          </div>
+          <div class="timeline__content">
+            <ul>
+              <li>
+                Mentored 200+ students in Java, JavaScript, React, and DevOps concepts through weekly hands-on labs.
+                Guided teams in secure application development, containerization using Docker, and CI/CD pipelines.
+              </li>
+              <li>
+                Assisted students in deploying containerized applications using Docker & Azure, reinforcing cloud-native
+                engineering fundamentals. Led labs on backend development & database integration using SQL Server and authentication workflows.
+              </li>
+              <li>
+                Conducted workshops on test-driven development (TDD) using JUnit, Jest, and Cypress for unit and
+                integration testing. Coordinated with faculty to design weekly development exercises, grading rubrics, and project assessments.
+              </li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="timeline__item">
+          <div class="timeline__meta">
+            <h3>Software Engineer (Full Stack)</h3>
+            <p class="timeline__company">Cognition · Bengaluru, India</p>
+            <p class="timeline__date">Aug 2020 – Jul 2022</p>
+          </div>
+          <div class="timeline__content">
+            <ul>
+              <li>
+                Built and maintained financial services backends using Java, Spring Boot, and Node.js, integrating with
+                OracleDB for production-grade deployments. Developed reusable React + Redux components to improve frontend performance and maintainability.
+              </li>
+              <li>
+                Designed and optimized ETL pipelines for real-time data aggregation and reporting, reducing latency and
+                improving analytics accuracy. Managed relational database operations using Hibernate ORM & JDBC, optimizing queries and database
+                access patterns in OracleDB.
+              </li>
+              <li>
+                Built backend payment & account management using Spring Boot & Node.js, supporting transaction flows.
+                Developed stored procedures using MySQL and Oracle SQL for data transformation and reporting workflows.
+              </li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section">
+      <div class="section__header reveal">
+        <h2>Projects</h2>
+        <p>Selected work that shows how I build and ship software.</p>
+      </div>
+
+      <div class="grid grid--3 project-grid reveal">
+        <!-- Project Card 1 -->
+        <article class="card project-card">
+          <h3>Project Name 1</h3>
+          <p class="project-card__subtitle">Tech stack · React · Node.js · PostgreSQL</p>
+          <p>
+            Short description of what the project does, who it’s for, and what you worked on.
+          </p>
+          <ul class="project-card__bullets">
+            <li>Highlight a measurable impact or interesting feature.</li>
+            <li>Mention scalability, performance, or UX improvements.</li>
+          </ul>
+          <div class="project-card__links">
+            <a href="https://github.com/your-github/project1" target="_blank" rel="noreferrer">
+              Code
+            </a>
+            <a href="https://your-demo-link.com" target="_blank" rel="noreferrer">
+              Live Demo
+            </a>
+          </div>
+        </article>
+
+        <!-- Project Card 2 -->
+        <article class="card project-card">
+          <h3>Project Name 2</h3>
+          <p class="project-card__subtitle">Tech stack · Python · FastAPI · PostgreSQL</p>
+          <p>
+            Another brief description focused on the problem, solution, and technologies.
+          </p>
+          <ul class="project-card__bullets">
+            <li>Explain your role and contributions.</li>
+            <li>Mention testing, monitoring, or deployment.</li>
+          </ul>
+          <div class="project-card__links">
+            <a href="https://github.com/your-github/project2" target="_blank" rel="noreferrer">
+              Code
+            </a>
+          </div>
+        </article>
+
+        <!-- Project Card 3 -->
+        <article class="card project-card">
+          <h3>Project Name 3</h3>
+          <p class="project-card__subtitle">Tech stack · Java · Spring Boot · MySQL</p>
+          <p>
+            Summarize why this project is interesting or relevant to the roles you're targeting.
+          </p>
+          <ul class="project-card__bullets">
+            <li>Focus on performance, scale, or complexity.</li>
+          </ul>
+          <div class="project-card__links">
+            <a href="https://github.com/your-github/project3" target="_blank" rel="noreferrer">
+              Code
+            </a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section id="education" class="section section--alt">
+      <div class="section__header reveal">
+        <h2>Education</h2>
+      </div>
+      <div class="education reveal">
+        <article class="education__item">
+          <h3>Master of Science in Computer Engineering</h3>
+          <p class="education__school">University of Central Florida · Orlando, FL</p>
+          <p class="education__date">Dec 2024</p>
+          <p class="education__details">
+            Relevant coursework: Software Development & Networks, Analysis of Algorithm, Machine Learning, Artificial Intelligence, Cybersecurity,
+            Software Engineering, Computer Design & Computer Architecture, Computational Complexity.
+          </p>
+        </article>
+
+        <article class="education__item">
+          <h3>Bachelor of Engineering in Computer Science</h3>
+          <p class="education__school">Visvesvaraya Technological University · Bengaluru, India</p>
+          <p class="education__date">Jul 2022</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section">
+      <div class="section__header reveal">
+        <h2>Contact</h2>
+        <p>Interested in working together or just want to say hi? Reach out.</p>
+      </div>
+      <div class="contact reveal">
+        <div class="contact__info">
+          <p>
+            📧 Email:
+            <a href="mailto:amruthanagaraj41@gmail.com">amruthanagaraj41@gmail.com</a>
+          </p>
+          <p>
+            💼 LinkedIn:
+            <a href="https://www.linkedin.com/in/amrutha-nagaraj-0158881a1/" target="_blank" rel="noreferrer">
+              https://www.linkedin.com/in/amrutha-nagaraj-0158881a1/
+            </a>
+          </p>
+          <p>
+            🧑‍💻 GitHub:
+            <a href="https://github.com/ammun99" target="_blank" rel="noreferrer">
+              https://github.com/ammun99
+            </a>
+          </p>
+        </div>
+        <form
+          class="contact__form"
+          action="https://formspree.io/f/xyzrdrgg"
+          method="POST"
+        >
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input name="name" id="name" type="text" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input name="email" id="email" type="email" required />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea name="message" id="message" rows="4" required></textarea>
+          </div>
+          <button type="submit" class="btn btn--primary">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> Amrutha Nagaraj. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
